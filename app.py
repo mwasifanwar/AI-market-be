@@ -198,7 +198,8 @@ def analyze_market():
         "max_tokens": 800
     }
 
-    return fetch_analysis(request_body)
+    return fetch_groq_api(request_body)
+
 
 
 def fetch_ai_response(request_body, attempt=1):
