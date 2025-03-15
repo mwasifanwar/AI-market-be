@@ -17,7 +17,7 @@ if (!GROQ_API_KEY) {
 
 app.use(express.json());
 app.use(cors({
-    origin: ["*"], // Replace with your actual frontend URL
+    origin: ["https://ai-market-fe.onrender.com"], // Replace with your actual frontend URL
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type", "Authorization"]
 }));
